@@ -11,7 +11,7 @@ public class App
         for (String i:args){
             List.addNode(Double.parseDouble(i));
         }        
-        System.out.print("Mean: "+mean(List)+"\n"+"Standar deviation: "+ deviation(List));
+        System.out.print("Mean: "+mean(List)+"\n"+"Standar deviation: "+ deviation(List)+"\n");
     }
     
     public static double mean(LinkedList List){
