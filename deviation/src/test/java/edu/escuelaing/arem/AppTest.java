@@ -19,7 +19,7 @@ public class AppTest{
      * Deberia recorrer la lista solo con next hasta que encuentre el final de la lista o null
      */
     @Test
-    public void LinkefListNextTest(){
+    public void LinkedListNextTest(){
         double[] args = {160, 591, 114, 229, 230, 270, 128, 1657, 624, 1503};
         double[] test1 = {160, 591, 114, 229, 230, 270, 128, 1657, 624, 1503};
         LinkedList List = new LinkedList();
@@ -40,7 +40,7 @@ public class AppTest{
      *Deberia recorrer la lista solo con Previus hasta que encuentre null o este en el primer elemento
      */
     @Test
-    public void LinkefLisPreviusTest(){
+    public void LinkedListPreviusTest(){
         double[] args = {160, 591, 114, 229, 230, 270, 128, 1657, 624, 1503};
         double[] test1 = {160, 591, 114, 229, 230, 270, 128, 1657, 624, 1503};
         LinkedList List = new LinkedList();
