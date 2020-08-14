@@ -15,6 +15,9 @@ public class LinkedList {
     public Node last;
     public int length;
     public Node actual;
+    
+    
+    
     public LinkedList(){
         this.first = null;
         this.last = null;
